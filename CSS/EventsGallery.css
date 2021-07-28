@@ -1,0 +1,214 @@
+*{ margin: 0;
+    padding: 0;}
+   body { 
+       background-image: url(../image/TypesOfEvents.jpg);
+       background-attachment: fixed;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       position: relative; 
+       padding: 0%;
+   }
+   header { 
+    background-color:chocolate;
+       display: flex;
+       justify-content: space-between;
+       width: 100%;
+       height: 8vh;
+   }
+
+   .NavBar img { 
+       width: 40px;
+       height: 40px;
+       transition: 0.5s;
+   }
+   .NavBar img:hover { 
+       width: 50px;
+       height: 50px;
+   }
+   nav { 
+    width: 100%;
+   }
+
+   ul { 
+    align-items: center;
+    height: 8vh;
+    background-color:chocolate;
+    font-family: 'Suez One', serif;
+    font-size: 20px;
+    font-weight: bold 700px;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none ;
+    padding: 0%;
+    transition: 1s;}
+
+    li { 
+        text-align: center;
+        transition: 0.5s;
+        color: black;
+    }
+
+    li:hover { 
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.26);
+        border-radius: 10px;
+    } 
+
+    .Headline { 
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'Suez One', serif;
+    }
+    .Headline h1 , p { 
+        text-align: center;
+        font-size: 25px;
+    }
+    .Headline p {
+        border-top:solid chocolate 3px;
+        border-bottom:solid chocolate 3px;
+        border-radius: 10px;
+        background-color: rgba(255, 235, 205, 0.527);
+    }
+    
+
+    .row { 
+        display: flex;
+        justify-content: space-evenly;
+        margin: 3%;
+        
+    }
+
+    .row img { 
+        width: 240px;
+        border-radius: 6%;
+        transition: 1s;
+        padding: 5px;
+    }
+    .row img:hover { 
+     filter: grayscale(90%);
+    }
+
+    .column { 
+        display: flex;
+        justify-content: space-evenly;
+        margin: 3%;
+        padding: 5px;
+    }
+
+    .column img { 
+        width: 230px;
+        border-radius: 3%;
+        transition: 1s;
+    }
+    .column img:hover { 
+        filter: grayscale(90%);
+       }
+
+    .PhotoCenter { 
+        display: flex;
+        justify-content: space-evenly;
+        margin-right: 50px;
+    }   
+
+    .PhotoCenter img { 
+        width: 600px;
+        border-radius: 3%;
+        transition: 1s;
+    }
+
+    .PhotoCenter img:hover { 
+        filter: grayscale(90%);
+       }
+
+    
+    #video { 
+        margin: 50px;
+        display: flex;
+        justify-content: center;
+    }   
+
+    @media screen and (max-device-width:440px) { 
+        body { 
+            background-image: url(../image/Business\ Geometric\ Contrast\ Advertising\ Background.jpg);
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative; 
+            padding: 0%;
+            width: 100vw;
+        }
+          a { 
+              font-size: 15px;
+              text-decoration: none;
+          }
+
+          header{ 
+              justify-content: center;
+          }
+          
+        .Headline { 
+            margin: auto;
+            margin-top: 50px;
+            width: 60%;
+         }
+
+        .Headline p { 
+            font-size: 15px;
+          }
+
+        .row { 
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        } 
+        .row img { 
+        margin-right:5%;
+        width: 150px;
+        padding: 5px;
+        border-radius: 3%;
+        transition: 1s;
+    }
+        .row img:hover { 
+        filter: grayscale(90%);
+         }
+
+        .column { 
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .column img { 
+            width: 150px;
+            border-radius: 5%;
+            transition: 1s;
+            padding:5px ;
+        }
+        .column img:hover { 
+            filter: grayscale(90%);
+           }
+
+           .PhotoCenter { 
+            margin: auto;
+           }
+
+           .PhotoCenter img { 
+            width: 400px;
+            border-radius: 3%;
+            transition: 1s;
+        }
+    
+        .PhotoCenter img:hover { 
+            filter: grayscale(90%);
+           }  
+           
+           #video { 
+            margin: auto;
+            width: 400px;
+
+        }   
+            
+    }
