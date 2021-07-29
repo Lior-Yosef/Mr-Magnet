@@ -168,6 +168,7 @@
         .row img { 
         margin-right:5%;
         width: 150px;
+        height: 50px;
         padding: 5px;
         border-radius: 3%;
         transition: 1s;
@@ -211,4 +212,44 @@
 
         }   
             
+    }
+
+    @media screen and (max-device-width:768px) {
+        
+        .Headline{ 
+            width: 80%;
+            margin: auto;
+            margin-top: 50px;
+        }
+
+        .Headline p{ 
+            font-size: 20px;
+
+        }
+
+        .row { 
+            flex-wrap: wrap;
+        }
+
+        .row img { 
+            width: 200px;
+        }
+
+        .column { 
+            flex-wrap: wrap;
+        }
+
+        .column img{ 
+            width: 150px;
+        }
+
+        .PhotoCenter img { 
+            width: 400px;
+
+        }
+        #video { 
+            margin: auto;
+            width: 100px;
+        }
+
     }

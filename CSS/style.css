@@ -105,7 +105,6 @@ body {
 
     .iconsDesign img { 
         width: 150px;
-        height: 150px;
         transition: 0.5s;
     }
     .iconsDesign img:hover {
@@ -285,4 +284,30 @@ body {
     width: 251px;
 }
   
+}
+
+@media screen and (max-device-width:768px) { 
+    #form { 
+        flex-direction: column;
+        flex-wrap: wrap; 
+    }
+    form { 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    textarea { 
+        width: 251px;
+        margin-top: 5px;
+       }
+       #submit { 
+        width: 251px;
+    }
+    #icons { 
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    .iconsDesign img { 
+        width: 180px; }
 }

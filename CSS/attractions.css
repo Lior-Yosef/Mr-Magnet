@@ -172,3 +172,19 @@
         }
     
     }
+
+    @media screen and (max-device-width:768px) { 
+        #openpage h1{ 
+            font-size: 60px;
+            margin-top: 100px;
+        }
+        #openpage img {
+            margin-top: 80px;
+            width: 230px;
+            height: 220px;
+            
+        }
+
+
+
+    } 
